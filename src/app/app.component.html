@@ -24,6 +24,7 @@
     h5,
     h6 {
         margin: 8px 0;
+        font-family: 'Lato', sans-serif;
     }
     
     p {
@@ -35,7 +36,7 @@
     }
     
     .toolbar {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;
@@ -51,28 +52,26 @@
         margin: 0 16px;
     }
     
-    .toolbar #twitter-logo {
-        height: 40px;
-        margin: 0 8px;
-    }
-    
-    .toolbar #youtube-logo {
-        height: 40px;
-        margin: 0 16px;
-    }
-    
-    .toolbar #twitter-logo:hover,
-    .toolbar #youtube-logo:hover {
-        opacity: 0.8;
-    }
-    
     .content {
-        display: flex;
-        margin: 82px auto 32px;
         padding: 0 16px;
-        max-width: 960px;
-        flex-direction: column;
         align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        background-image: url(../assets/img/programador_taoc_peru.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        opacity: 0.2;
+        filter: alpha(opacity=80);
+        height: 800px;
+        width: 96%;
+        position: absolute;
+    }
+    
+    .texto {
+        color: #000000;
+        position: relative;
+        margin-top: 5%;
     }
     
     svg.material-icons {
@@ -306,14 +305,16 @@
 
 <div class="content" role="main">
 
-    <h2>Somos</h2>
-    <h1>TAOC PERÚ</h1>
+
+</div>
+
+<div class="texto">
+    <h2>Nosotros somos</h2>
+    <h1>TAOC</h1>
     <h3>Nuevos horizontes digitales</h3>
 
     <p>Somos TAOC una empresa peruana fundada el año 2022, nos especializamos en desarrollo de analítica de datos, inteligencia artificial, modelos de predicción, big data; optimización, seguimiento y control del proyectos, implantación de metodologías ágiles;
         desarrollo de software, desarrollo de aplicaciones web; soporte técnico para el parque informático y creación de marca digital.</p>
-
-
 </div>
 
 <router-outlet></router-outlet>
