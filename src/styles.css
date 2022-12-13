@@ -12,10 +12,17 @@ p {
 }
 
 .menu h1 {
-    color: #3d348b;
+    color: #70f8ba;
     font-size: 4vw;
 }
 
 .menu p {
-    color: #3d348b;
+    color: #ffffff;
+}
+
+.slide {
+    background-color: #1c1a1a;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
 }
