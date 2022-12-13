@@ -2,7 +2,7 @@
 
 
 <div class="toolbar" role="banner">
-    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white">
         <div class="container-fluid">
             <img width="140" alt="Logo Taoc Perú" src="https://raw.githubusercontent.com/sostaocperu/web2/main/src/assets/img/lofotipo%20nuevo%202023%20azul.png" />
 
@@ -11,7 +11,7 @@
           </button>
 
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto ml-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -23,7 +23,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <button class="btn btn-danger">Sign in</button>
+                    <button class="btn btn-info">Sign in</button>
             </span>
             </div>
         </div>
@@ -35,14 +35,34 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 menu">
         <div class="col">
             <h1>NUEVOS <br> HORIZONTES <br> DIGITALES</h1>
-            <p>Somos TAOC una empresa peruana fundada el año 2022, nos especializamos en desarrollo de analítica de datos, inteligencia artificial, modelos de predicción, big data; optimización, seguimiento y control del proyectos, implantación de metodologías
-                ágiles; desarrollo de software, desarrollo de aplicaciones web; soporte técnico para el parque informático y creación de marca digital.</p>
+            <p>Somos <b>TAOC PERÚ</b> una empresa peruana fundada el año 2022, nos especializamos en desarrollo de analítica de datos, inteligencia artificial, modelos de predicción, big data; optimización, seguimiento y control del proyectos, implantación
+                de metodologías ágiles; desarrollo de software, desarrollo de aplicaciones web; soporte técnico para el parque informático y creación de marca digital.</p>
+            <button class="btn btn-success">Nosotros</button>
+
         </div>
         <div class="col">
 
-            <h3>***</h3>
+            <img class="img_prin " src="https://github.com/sostaocperu/web2/blob/main/src/assets/img/horizonte%20digital.jpg?raw=true" alt="">
         </div>
     </div>
 </div>
+
+<footer class="container p-4 rounded">
+    <div class="d-lg-flex justify-content-between">
+        <div>
+            <img width="140" alt="Logo Taoc Perú" src="https://raw.githubusercontent.com/sostaocperu/web2/main/src/assets/img/lofotipo%20nuevo%202023%20azul.png" />
+        </div>
+        <div>
+            <p>Taoc Perú © 2023</p>
+        </div>
+        <div>
+            <ul class="d-flex gap-3 list-unstyled">
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 
 <router-outlet></router-outlet>

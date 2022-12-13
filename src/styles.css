@@ -7,22 +7,48 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 
-p {
+p,
+a {
     font-family: 'Open Sans', sans-serif;
 }
 
-.menu h1 {
+a {
+    color: #3d348b;
+}
+
+.slide {
+    padding: 10%;
+}
+
+.slide h1 {
     color: #70f8ba;
     font-size: 4vw;
 }
 
-.menu p {
+.slide p {
     color: #ffffff;
 }
 
 .slide {
     background-color: #1c1a1a;
     margin: 0px;
+    min-width: 100%;
+    height: 100vh;
+}
+
+.img_prin {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
+    border-radius: 50px;
+}
+
+.btn-success {
+    background-color: #70f8ba;
+    color: #1c1a1a;
+}
+
+.btn-info {
+    background-color: #3d348b;
+    color: #ffffff;
+    border-color: #3d348b;
 }
